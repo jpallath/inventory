@@ -1,0 +1,46 @@
+body{
+  background: beige;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App h1{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.App form{
+  width: 50%;
+}
+
+.App input{
+  width: 70%;
+  height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.App button{
+  width: 20%;
+  height: 25px;
+  border-radius: 30px;
+}
+
+.App .item-content{
+  width: 50%;
+}
+
+.App ol{
+  list-style: none;
+  background: rgb(243, 242, 243);
+  padding: 0;
+}
+
+.App li{
+  margin: 10px;
+  border-bottom: black solid 3px;
+}
